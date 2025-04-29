@@ -69,3 +69,8 @@ Below is a simplified architecture diagram showing the flow of information:
 - **Security**: SHA-256 hashing ensures plaintext passwords are never stored or transmitted.
 - **Testability**: Unit and integration tests cover file operations and database interaction.
 
+Test Coverage Summary:
+- File I/O logic: tested
+- Password hashing logic: tested
+- MongoDB integration: tested
+- CLI login flow: validated via acceptance.bat
